@@ -1,0 +1,70 @@
+/* ---------- ظاهر کلی صفحه ---------- */
+body {
+    font-family: Tahoma, sans-serif;
+    background-color: #ffd6e8; /* صورتی ملایم */
+    color: #333333; /* خاکستری تیره */
+    padding: 20px;
+    text-align: center;
+}
+
+/* ---------- تیترها ---------- */
+h1 {
+    color: #2c3e50;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 30px;
+}
+
+/* ---------- خوش آمدگویی ---------- */
+#welcome {
+    font-size: 18px;
+    color: #6c3483; /* یاسی تیره */
+    margin-bottom: 5px;
+}
+
+/* ---------- باکس اضافه کردن درس ---------- */
+.box {
+    margin: 20px 0;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* ---------- دکمه‌ها ---------- */
+button {
+    padding: 10px 15px;
+    background-color: #c39bd3; /* یاسی */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8e44ad; /* یاسی تیره هنگام هاور */
+}
+
+/* ---------- لیست درس‌ها ---------- */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f0f0f0; /* سفید مایل به خاکستری */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* ---------- تایمر و درصد پیشرفت ---------- */
+#timer, #progress {
+    font-size: 24px;
+    margin: 10px 0;
+}

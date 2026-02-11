@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Myplanner</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<h1>برنامه‌ریزی درسی من</h1>
+
+<!-- خوش آمدگویی -->
+<p id="welcome"></p>
+<p style="font-size: 14px; color: #555;">تهیه‌کنندگان: رزیتا زارعی و مهسا عزیزی</p>
+
+<div class="box">
+    <input type="text" id="taskInput" placeholder="نام درس را وارد کن">
+    <button onclick="addTask()">اضافه کن</button>
+</div>
+
+<ul id="taskList"></ul>
+
+<h2>تایمر مطالعه</h2>
+<p id="timer">25:00</p>
+<button onclick="startTimer()">شروع تایمر</button>
+
+<h2>هدف هفتگی</h2>
+<input type="number" id="goalInput" placeholder="تعداد ساعت">
+<button onclick="setGoal()">ثبت هدف</button>
+<p>هدف این هفته: <span id="goalDisplay">0</span> ساعت</p>
+
+<h2>پیشرفت شما</h2>
+<p>درصد پیشرفت: <span id="progress">0%</span></p>
+
+<h2>نمودار پیشرفت</h2>
+<canvas id="progressChart" width="400" height="200"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
